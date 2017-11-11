@@ -15,6 +15,7 @@
 		CEF0A06D1FB62BA7004F95F0 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = CEF0A06C1FB62BA7004F95F0 /* Assets.xcassets */; };
 		CEF0A0701FB62BA7004F95F0 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CEF0A06E1FB62BA7004F95F0 /* LaunchScreen.storyboard */; };
 		CEF0A07C1FB63D0C004F95F0 /* GoalCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = CEF0A07B1FB63D0C004F95F0 /* GoalCell.swift */; };
+		CEF36D361FB6B19A003FCFB0 /* CreateGoalVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = CEF36D351FB6B19A003FCFB0 /* CreateGoalVC.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -28,6 +29,7 @@
 		CEF0A06F1FB62BA7004F95F0 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		CEF0A0711FB62BA7004F95F0 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		CEF0A07B1FB63D0C004F95F0 /* GoalCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GoalCell.swift; sourceTree = "<group>"; };
+		CEF36D351FB6B19A003FCFB0 /* CreateGoalVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CreateGoalVC.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -78,6 +80,7 @@
 			isa = PBXGroup;
 			children = (
 				CEF0A0641FB62BA7004F95F0 /* GoalsVC.swift */,
+				CEF36D351FB6B19A003FCFB0 /* CreateGoalVC.swift */,
 			);
 			path = Controller;
 			sourceTree = "<group>";
@@ -178,6 +181,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				CEF0A07C1FB63D0C004F95F0 /* GoalCell.swift in Sources */,
+				CEF36D361FB6B19A003FCFB0 /* CreateGoalVC.swift in Sources */,
 				CE9A62581FB64D7600F01695 /* GoalType.swift in Sources */,
 				CEF0A06B1FB62BA7004F95F0 /* goalpost.xcdatamodeld in Sources */,
 				CEF0A0651FB62BA7004F95F0 /* GoalsVC.swift in Sources */,
