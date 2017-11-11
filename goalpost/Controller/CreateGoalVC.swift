@@ -30,7 +30,7 @@ class CreateGoalVC: UIViewController {
     @IBOutlet weak var longTermBtnWasPressed: UIButton!
     
     @IBAction func backBtnWasPressed(_ sender: Any) {
-        dismiss(animated: true, completion: nil)
+       dismissDetail()
     }
     
 }

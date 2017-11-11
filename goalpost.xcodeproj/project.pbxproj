@@ -8,6 +8,7 @@
 
 /* Begin PBXBuildFile section */
 		CE9A62581FB64D7600F01695 /* GoalType.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE9A62571FB64D7600F01695 /* GoalType.swift */; };
+		CED2B5C61FB7B39100946D1B /* UIViewControllerExt.swift in Sources */ = {isa = PBXBuildFile; fileRef = CED2B5C51FB7B39100946D1B /* UIViewControllerExt.swift */; };
 		CEF0A0631FB62BA7004F95F0 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = CEF0A0621FB62BA7004F95F0 /* AppDelegate.swift */; };
 		CEF0A0651FB62BA7004F95F0 /* GoalsVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = CEF0A0641FB62BA7004F95F0 /* GoalsVC.swift */; };
 		CEF0A0681FB62BA7004F95F0 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CEF0A0661FB62BA7004F95F0 /* Main.storyboard */; };
@@ -20,6 +21,7 @@
 
 /* Begin PBXFileReference section */
 		CE9A62571FB64D7600F01695 /* GoalType.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GoalType.swift; sourceTree = "<group>"; };
+		CED2B5C51FB7B39100946D1B /* UIViewControllerExt.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UIViewControllerExt.swift; sourceTree = "<group>"; };
 		CEF0A05F1FB62BA7004F95F0 /* goalpost.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = goalpost.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		CEF0A0621FB62BA7004F95F0 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		CEF0A0641FB62BA7004F95F0 /* GoalsVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GoalsVC.swift; sourceTree = "<group>"; };
@@ -104,6 +106,7 @@
 		CEF0A07A1FB62C07004F95F0 /* Extensions */ = {
 			isa = PBXGroup;
 			children = (
+				CED2B5C51FB7B39100946D1B /* UIViewControllerExt.swift */,
 			);
 			path = Extensions;
 			sourceTree = "<group>";
@@ -185,6 +188,7 @@
 				CE9A62581FB64D7600F01695 /* GoalType.swift in Sources */,
 				CEF0A06B1FB62BA7004F95F0 /* goalpost.xcdatamodeld in Sources */,
 				CEF0A0651FB62BA7004F95F0 /* GoalsVC.swift in Sources */,
+				CED2B5C61FB7B39100946D1B /* UIViewControllerExt.swift in Sources */,
 				CEF0A0631FB62BA7004F95F0 /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
