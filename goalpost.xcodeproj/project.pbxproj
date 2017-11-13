@@ -8,6 +8,7 @@
 
 /* Begin PBXBuildFile section */
 		CE9A62581FB64D7600F01695 /* GoalType.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE9A62571FB64D7600F01695 /* GoalType.swift */; };
+		CEBDCA211FB9FCBD00843566 /* FinishGoalVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = CEBDCA201FB9FCBD00843566 /* FinishGoalVC.swift */; };
 		CED2B5C61FB7B39100946D1B /* UIViewControllerExt.swift in Sources */ = {isa = PBXBuildFile; fileRef = CED2B5C51FB7B39100946D1B /* UIViewControllerExt.swift */; };
 		CED2B5C81FB7C15100946D1B /* UIViewExt.swift in Sources */ = {isa = PBXBuildFile; fileRef = CED2B5C71FB7C15100946D1B /* UIViewExt.swift */; };
 		CEE24BD01FB947AF002942D0 /* UIButtonExt.swift in Sources */ = {isa = PBXBuildFile; fileRef = CEE24BCF1FB947AF002942D0 /* UIButtonExt.swift */; };
@@ -23,6 +24,7 @@
 
 /* Begin PBXFileReference section */
 		CE9A62571FB64D7600F01695 /* GoalType.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GoalType.swift; sourceTree = "<group>"; };
+		CEBDCA201FB9FCBD00843566 /* FinishGoalVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FinishGoalVC.swift; sourceTree = "<group>"; };
 		CED2B5C51FB7B39100946D1B /* UIViewControllerExt.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UIViewControllerExt.swift; sourceTree = "<group>"; };
 		CED2B5C71FB7C15100946D1B /* UIViewExt.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UIViewExt.swift; sourceTree = "<group>"; };
 		CEE24BCF1FB947AF002942D0 /* UIButtonExt.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UIButtonExt.swift; sourceTree = "<group>"; };
@@ -87,6 +89,7 @@
 			children = (
 				CEF0A0641FB62BA7004F95F0 /* GoalsVC.swift */,
 				CEF36D351FB6B19A003FCFB0 /* CreateGoalVC.swift */,
+				CEBDCA201FB9FCBD00843566 /* FinishGoalVC.swift */,
 			);
 			path = Controller;
 			sourceTree = "<group>";
@@ -197,6 +200,7 @@
 				CEF0A0651FB62BA7004F95F0 /* GoalsVC.swift in Sources */,
 				CED2B5C61FB7B39100946D1B /* UIViewControllerExt.swift in Sources */,
 				CEE24BD01FB947AF002942D0 /* UIButtonExt.swift in Sources */,
+				CEBDCA211FB9FCBD00843566 /* FinishGoalVC.swift in Sources */,
 				CEF0A0631FB62BA7004F95F0 /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
