@@ -263,6 +263,9 @@
                                                 <state key="normal" title="LONG TERM">
                                                     <color key="titleColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                                 </state>
+                                                <connections>
+                                                    <action selector="longTermBtnWasPressed:" destination="v93-aT-AV5" eventType="touchUpInside" id="lW7-Q7-lnk"/>
+                                                </connections>
                                             </button>
                                         </subviews>
                                         <constraints>
@@ -306,7 +309,6 @@
                     <connections>
                         <outlet property="goalTextView" destination="WjP-nQ-83C" id="mu4-T3-9Gz"/>
                         <outlet property="longTerm" destination="kcd-LZ-EW6" id="aMz-Go-9Nu"/>
-                        <outlet property="longTermBtnWasPressed" destination="kcd-LZ-EW6" id="wC9-2p-oGg"/>
                         <outlet property="nextBtn" destination="sP4-RF-rvv" id="opI-Iu-zYA"/>
                         <outlet property="shortTerm" destination="5kb-kv-L8U" id="91F-0M-d0J"/>
                     </connections>
