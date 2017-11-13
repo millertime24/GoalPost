@@ -348,6 +348,9 @@
                                     <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="gup-hE-e9E">
                                         <rect key="frame" x="15" y="33" width="14" height="25"/>
                                         <state key="normal" image="back"/>
+                                        <connections>
+                                            <action selector="backBtnWasPressed:" destination="N9h-9p-hOK" eventType="touchUpInside" id="Cef-rE-zZX"/>
+                                        </connections>
                                     </button>
                                 </subviews>
                                 <color key="backgroundColor" red="0.31494462499999998" green="0.60457645940000004" blue="0.12740762359999999" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
@@ -385,8 +388,8 @@
                             <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="qgf-Fv-d0J">
                                 <rect key="frame" x="0.0" y="208" width="375" height="459"/>
                                 <subviews>
-                                    <button opaque="NO" contentMode="scaleToFill" ambiguous="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="0BN-3u-tqz">
-                                        <rect key="frame" x="0.0" y="399" width="375" height="50"/>
+                                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="0BN-3u-tqz">
+                                        <rect key="frame" x="0.0" y="409" width="375" height="50"/>
                                         <color key="backgroundColor" red="0.96470588239999999" green="0.65098039220000004" blue="0.13725490200000001" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                         <constraints>
                                             <constraint firstAttribute="height" constant="50" id="QKq-Oo-xia"/>
@@ -401,6 +404,11 @@
                                     </button>
                                 </subviews>
                                 <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                <constraints>
+                                    <constraint firstAttribute="trailing" secondItem="0BN-3u-tqz" secondAttribute="trailing" id="LRw-yh-PYK"/>
+                                    <constraint firstItem="0BN-3u-tqz" firstAttribute="leading" secondItem="qgf-Fv-d0J" secondAttribute="leading" id="Q66-Rq-bp2"/>
+                                    <constraint firstAttribute="bottom" secondItem="0BN-3u-tqz" secondAttribute="bottom" id="trm-UG-X4T"/>
+                                </constraints>
                             </view>
                         </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
