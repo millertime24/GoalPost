@@ -9,11 +9,10 @@
 import UIKit
 
 class CreateGoalVC: UIViewController, UITextViewDelegate {
+
     @IBOutlet weak var goalTextView: UITextView!
-    
-    @IBOutlet weak var shortTerm: UIButton!
-    
-    @IBOutlet weak var longTerm: UIButton!
+    @IBOutlet weak var shortTermBtn: UIButton!
+    @IBOutlet weak var longTermBtn: UIButton!
     @IBOutlet weak var nextBtn: UIButton!
     
     var goalType: GoalType = .shortTerm
@@ -21,36 +20,33 @@ class CreateGoalVC: UIViewController, UITextViewDelegate {
     override func viewDidLoad() {
         super.viewDidLoad()
         nextBtn.bindToKeyboard()
-        shortTerm.setSelectedColor()
-        longTerm.setDeselectedColor()
+        shortTermBtn.setSelectedColor()
+        longTermBtn.setDeselectedColor()
         goalTextView.delegate = self
-    }
-    
-    @IBAction func nextBtnWasPressed(_ sender: Any) {
-        if goalTextView.text != "" && goalTextView.text != "What is your goal?" {
-            guard let finishGoalVC = storyboard?.instantiateViewController(withIdentifier: "FinishGoalVC") as? FinishGoalVC else {return}
-            finishGoalVC.initData(description: goalTextView.text!, type: goalType)
-           presentingViewController?.presentSecondaryDetail(finishGoalVC)
-        }
-        
     }
     
     @IBAction func shortTermBtnWasPressed(_ sender: Any) {
         goalType = .shortTerm
-        shortTerm.setSelectedColor()
-        longTerm.setDeselectedColor()
+        shortTermBtn.setSelectedColor()
+        longTermBtn.setDeselectedColor()
     }
     
     @IBAction func longTermBtnWasPressed(_ sender: Any) {
         goalType = .longTerm
-        longTerm.setSelectedColor()
-        shortTerm.setDeselectedColor()
+        longTermBtn.setSelectedColor()
+        shortTermBtn.setDeselectedColor()
     }
     
-    
+    @IBAction func nextBtnWasPressed(_ sender: Any) {
+        if goalTextView.text != "" && goalTextView.text != "What is your goal?" {
+            guard let finishGoalVC = storyboard?.instantiateViewController(withIdentifier: "FinishGoalVC") as? FinishGoalVC else { return }
+            finishGoalVC.initData(description: goalTextView.text!, type: goalType)
+            presentingViewController?.presentSecondaryDetail(finishGoalVC)
+        }
+    }
     
     @IBAction func backBtnWasPressed(_ sender: Any) {
-       dismissDetail()
+        dismissDetail()
     }
     
     func textViewDidBeginEditing(_ textView: UITextView) {
